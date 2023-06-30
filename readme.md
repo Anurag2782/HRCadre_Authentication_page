@@ -1,7 +1,7 @@
 # HRCadre consultant Assignment -- Login/signup
 
 ## Description
-This project is a Node.js and MongoDB application that utilizes various technologies such as Express, EJS, Mongoose, Passport, Google OAuth authentication, Express-session, salting, and hashing. The application aims to provide a secure and efficient authentication system using Google as the authentication provider.
+This project is a Node.js and MongoDB application that utilizes various technologies such as Express, EJS, Mongoose, Passport, Google OAuth authentication, Express-session, salting, etc. The application aims to provide a secure and efficient authentication system using Google as the authentication provider.
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your/repo.git`
@@ -32,6 +32,12 @@ GOOGLE_CALLBACK_URL=your_google_callback_url
 - passport-google-oauth20: ^2.0.0
 - express-session: ^1.17.2
 - bcrypt: ^5.0.1
+- moongoose: ^7.3.1
+- body-parser: ^1.20.2
+- passport-local-mongoose: ^8.0.0
+- mongoose-findorcreate: ^4.0.0
+- node: ^20.3.1
+    
 
 
 ## Acknowledgements
